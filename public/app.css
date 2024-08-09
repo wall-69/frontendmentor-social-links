@@ -642,6 +642,10 @@ html{
   gap: 1.5rem;
 }
 
+.gap-5{
+  gap: 1.25rem;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
@@ -679,6 +683,10 @@ html{
 
 .font-semibold{
   font-weight: 600;
+}
+
+.font-bold{
+  font-weight: 700;
 }
 
 .text-green{
