@@ -22,7 +22,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### What I learned
 
-xxx
+That when you don't have the figma design file, getting the lengths and sizes is like impossible, haha. I tried doing most of the things just by my eye, but I am not sure that is the right way to do this stuff.
 
 ### Useful resources
 

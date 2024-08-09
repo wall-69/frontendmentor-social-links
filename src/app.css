@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	* {
+		font-family: "Inter", sans-serif;
+	}
+}
+
+@layer components {
+	.link-btn {
+		@apply bg-gray-700 text-white font-bold w-full rounded-lg lg:min-w-[300px] py-3;
+		@apply transition-colors hover:bg-green hover:text-gray-900 hover:cursor-pointer;
+	}
+}
