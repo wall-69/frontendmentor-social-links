@@ -12,6 +12,7 @@
 
 @layer components {
 	.link-btn {
+		@apply block;
 		@apply bg-gray-700 text-white font-bold w-full rounded-lg lg:min-w-[300px] py-3;
 		@apply transition-colors hover:bg-green hover:text-gray-900 hover:cursor-pointer;
 	}

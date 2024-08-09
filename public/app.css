@@ -565,6 +565,7 @@ html{
 }
 
 .link-btn{
+  display: block;
   width: 100%;
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
@@ -637,6 +638,10 @@ html{
   gap: 1rem;
 }
 
+.gap-6{
+  gap: 1.5rem;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
@@ -688,6 +693,22 @@ html{
 
 .text-opacity-75{
   --tw-text-opacity: 0.75;
+}
+
+.text-opacity-50{
+  --tw-text-opacity: 0.5;
+}
+
+.text-opacity-95{
+  --tw-text-opacity: 0.95;
+}
+
+.text-opacity-90{
+  --tw-text-opacity: 0.9;
+}
+
+.text-opacity-85{
+  --tw-text-opacity: 0.85;
 }
 
 @media (min-width: 1024px){
